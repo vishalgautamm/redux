@@ -1,5 +1,5 @@
 import { ActionTypes } from './createStore'
-import isPlainObject from 'lodash/isPlainObject'
+import { isPlainObject } from 'lodash'
 import warning from './utils/warning'
 
 var NODE_ENV = typeof process !== 'undefined' ? process.env.NODE_ENV : 'development'
